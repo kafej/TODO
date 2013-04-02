@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:;
+	font-size: 11px;
+	margin: 0;
+	overflow: hidden;
+}
+a {
+	color: #333333;
+}
+a img {
+	border:none;
+}
+#przycisk {
+    margin: 20px;
+}
+    #gallery { float: left; width: 65%; min-height: 12em; }
+    .gallery.custom-state-active { background: #eee; }
+    .gallery li { float: left; width: 600px; height: 500px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+    .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+    .gallery li a { float: right; }
+    #trash { float: right; width: 32%; min-height: 500px; padding: 1%; }
+    #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+    #trash h4 .ui-icon { float: left; }
+    #trash .gallery h5 { display: none; }
+    #dialog label, #dialog input { display:block; }
+    #dialog label { margin-top: 0.5em; }
+    #dialog input, #dialog textarea { width: 95%; }
+    #tabs { margin-top: 1em; }
+    #add_zad { cursor: pointer; }
